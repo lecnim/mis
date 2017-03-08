@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Żyję w kraju gdzie dwie pięści rozwiązują każdy problem</title>
+
+    <meta name="description" content="Dlaczego?">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32"/>
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16"/>
+
+    <!--CSS NORMLAIZE-->
+    <style>
+        html {
+            font-family: sans-serif;
+            line-height: 1.15;
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%
+        }
+
+        body {
+            margin: 0
+        }
+
+        article, aside, footer, header, nav, section {
+            display: block
+        }
+
+        h1 {
+            font-size: 2em;
+            margin: 0.67em 0
+        }
+
+        figcaption, figure, main {
+            display: block
+        }
+
+        figure {
+            margin: 1em 40px
+        }
+
+        hr {
+            box-sizing: content-box;
+            height: 0;
+            overflow: visible
+        }
+
+        pre {
+            font-family: monospace, monospace;
+            font-size: 1em
+        }
+
+        a {
+            background-color: transparent;
+            -webkit-text-decoration-skip: objects
+        }
+
+        a:active, a:hover {
+            outline-width: 0
+        }
+
+        abbr[title] {
+            border-bottom: none;
+            text-decoration: underline;
+            text-decoration: underline dotted
+        }
+
+        b, strong {
+            font-weight: inherit
+        }
+
+        b, strong {
+            font-weight: bolder
+        }
+
+        code, kbd, samp {
+            font-family: monospace, monospace;
+            font-size: 1em
+        }
+
+        dfn {
+            font-style: italic
+        }
+
+        mark {
+            background-color: #ff0;
+            color: #000
+        }
+
+        small {
+            font-size: 80%
+        }
+
+        sub, sup {
+            font-size: 75%;
+            line-height: 0;
+            position: relative;
+            vertical-align: baseline
+        }
+
+        sub {
+            bottom: -0.25em
+        }
+
+        sup {
+            top: -0.5em
+        }
+
+        audio, video {
+            display: inline-block
+        }
+
+        audio:not([controls]) {
+            display: none;
+            height: 0
+        }
+
+        img {
+            border-style: none
+        }
+
+        svg:not(:root) {
+            overflow: hidden
+        }
+
+        button, input, optgroup, select, textarea {
+            font-family: sans-serif;
+            font-size: 100%;
+            line-height: 1.15;
+            margin: 0
+        }
+
+        button, input {
+            overflow: visible
+        }
+
+        button, select {
+            text-transform: none
+        }
+
+        button, html [type="button"], [type="reset"], [type="submit"] {
+            -webkit-appearance: button
+        }
+
+        button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner {
+            border-style: none;
+            padding: 0
+        }
+
+        button:-moz-focusring, [type="button"]:-moz-focusring, [type="reset"]:-moz-focusring, [type="submit"]:-moz-focusring {
+            outline: 1px dotted ButtonText
+        }
+
+        fieldset {
+            border: 1px solid #c0c0c0;
+            margin: 0 2px;
+            padding: 0.35em 0.625em 0.75em
+        }
+
+        legend {
+            box-sizing: border-box;
+            color: inherit;
+            display: table;
+            max-width: 100%;
+            padding: 0;
+            white-space: normal
+        }
+
+        progress {
+            display: inline-block;
+            vertical-align: baseline
+        }
+
+        textarea {
+            overflow: auto
+        }
+
+        [type="checkbox"], [type="radio"] {
+            box-sizing: border-box;
+            padding: 0
+        }
+
+        [type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button {
+            height: auto
+        }
+
+        [type="search"] {
+            -webkit-appearance: textfield;
+            outline-offset: -2px
+        }
+
+        [type="search"]::-webkit-search-cancel-button, [type="search"]::-webkit-search-decoration {
+            -webkit-appearance: none
+        }
+
+        ::-webkit-file-upload-button {
+            -webkit-appearance: button;
+            font: inherit
+        }
+
+        details, menu {
+            display: block
+        }
+
+        summary {
+            display: list-item
+        }
+
+        canvas {
+            display: inline-block
+        }
+
+        template {
+            display: none
+        }
+
+        [hidden] {
+            display: none
+        }
+    </style>
+
+    <style>
+
+        @font-face {
+            font-family: 'milosz-content';
+            src: url('milosz-webfont.woff2') format('woff2'),
+            url('milosz-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'milosz-content';
+            src: url('milosz_bold_italic-webfont.woff2') format('woff2'),
+            url('milosz_bold_italic-webfont.woff') format('woff');
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        @font-face {
+            font-family: 'milosz-content';
+            src: url('milosz_bold-webfont.woff2') format('woff2'),
+            url('milosz_bold-webfont.woff') format('woff');
+            font-weight: bold;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'milosz-content';
+            src: url('milosz_italic-webfont.woff2') format('woff2'),
+            url('milosz_italic-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: italic;
+        }
+
+        body {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            font: normal 1.2em "milosz-content", "Times New Roman", sans-serif;
+
+            /*
+
+                Permalink - use to edit and share this gradient:
+                http://colorzilla.com/gradient-editor/#ffffff+15,ff0000+100
+
+            */
+
+            background: #ffffff; /* Old browsers */
+            background: -moz-linear-gradient(top, #ffffff 15%, #ff0000 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(top, #ffffff 15%, #ff0000 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom, #ffffff 15%, #ff0000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ff0000', GradientType=0); /* IE6-9 */
+        }
+
+        .przerwa {
+            height: 1.5em;
+            width: 1.5em;
+            margin: 3em auto;
+            display: block;
+            opacity: 0.3;
+            padding: 1px;
+            outline: 1px solid red;
+        }
+
+        .przerwa--rozdzial-2 {
+            outline: 1px solid white;
+        }
+
+        strong {
+            color: red;
+            font-weight: normal;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        video {
+            width: 100% !important;
+            height: auto !important;
+        }
+
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+
+        a:visited {
+            color: blue;
+        }
+
+        /*
+
+            TITLE
+
+        */
+
+        .szalik-dwie-piesci {
+            margin: 0.5em auto;
+            display: block;
+        }
+
+        .tytul {
+            text-align: center;
+            font-size: 2.5em;
+            font-style: italic;
+            color: red;
+            margin: 1em 0.3em;
+
+            text-shadow: 4px 4px 5px rgba(255, 0, 0, 0.2)
+        }
+
+        .tytul sup {
+            font-size: 0.25em;
+            vertical-align: super;
+        }
+
+        .info-milosz {
+            margin: 3em 0.4em;
+            text-align: center;
+        }
+
+        /*
+
+            ROZDZIALY
+
+         */
+
+        .rodzial {
+            text-align: center;
+            font-size: 1.5em;
+            margin: 1em 0.3em;
+            text-shadow: 2px 2px 0px rgba(255, 255, 255, 1);
+            padding: 1em 0;
+            border-top: 1px solid red;
+            border-bottom: 1px solid red;
+        }
+
+        .rodzial span {
+            font-size: 0.6em;
+            text-transform: uppercase;
+            display: block;
+            margin-bottom: 0.3em;
+        }
+
+        .rozdzial--epilog {
+            border-color: white;
+            color: white;
+            text-shadow: 2px 2px 0px rgb(0, 0, 0);
+        }
+
+        .ilustracja {
+            margin: 2em 0;
+        }
+
+        .ilustracja figcaption {
+            font-weight: normal;
+            text-align: center;
+            margin: 1em 5% 0 5%;
+        }
+
+        .czarny-podpis {
+            font-style: italic;
+            text-shadow: 2px 2px 0px rgba(255, 0, 0, 0.2)
+        }
+
+        .czerwony-podpis {
+            color: red;
+            font-style: italic;
+            text-shadow: 2px 2px 0px rgb(240, 232, 240)
+        }
+
+        .opis {
+            margin: 0 5% 1em 5%;
+            text-align: left;
+        }
+
+        .cytat {
+            text-align: left;
+            font-size: 2em;
+            font-style: italic;
+            margin: 1em 5% 1em 5%;
+            font-weight: bold;
+        }
+
+        .cytat--jurek-cerkiew {
+            margin: 1em 10% 1em 8%;
+        }
+
+        .cytat--jurek-niech-dla-polski {
+            margin-bottom: 15em;
+        }
+
+        .ilustracja--jurek-vs-mis {
+            margin-top: 3em;
+        }
+
+        .ilustracja--jurek-terminator {
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+
+        .ilustracja--jurek-okladka {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
+            outline: 1px solid white;
+        }
+
+        .ilustracja--zemsta {
+            margin: 0;
+        }
+
+        .hymn figcaption {
+            margin-top: 0.25em;
+            font-style: italic;
+        }
+
+        .ilustracja--produkt-polski {
+            width: 50%;
+            margin: 2em auto;
+            display: block;
+        }
+
+        .przypisy {
+            margin: 0 5%;
+            margin-top: 4em;
+            color: white;
+            border-top: 1px solid white;
+            text-align: left;
+        }
+
+        .przypisy a {
+            color: yellow;
+            word-break: break-all;
+            white-space: normal;
+        }
+        .przypisy h1 {
+            margin-bottom: 1em;
+        }
+
+        .wersja {
+            font-weight: bold;
+            color: white;
+            text-align: left;
+            margin: 3em 5%;
+        }
+
+        @media (min-width: 360px) {
+            .tytul {
+                font-size: 3em;
+            }
+        }
+
+        @media (min-width: 500px) {
+            body {
+                width: 500px;
+                margin: 0 auto;
+            }
+
+            .tytul {
+                font-size: 3.5em;
+            }
+        }
+
+        @media (min-width: 1440px) {
+            body {
+                width: 100%;
+                text-align: center;
+            }
+
+            .szalik-dwie-piesci, .tytul, .info-milosz, .rodzial, .opis, .ilustracja, .cytat {
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .szalik-dwie-piesci {
+                margin-top: 2em;
+                width: 30em;
+            }
+
+            .tytul {
+                width: 16em;
+            }
+
+            .info-milosz {
+                width: 70%;
+            }
+
+            .rodzial {
+                font-size: 1.8em;
+            }
+
+            .ilustracja--bialy-mis {
+                width: 100%;
+            }
+
+            .ilustracja--bialy-mis img, .ilustracja--bialy-mis div {
+                width: 18em;
+                display: inline-block;
+                vertical-align: middle;
+
+            }
+
+            .ilustracja--bialy-mis div {
+                width: 34em;
+                display: inline-block;
+                margin: 0 1em;
+            }
+            .ilustracja--bialy-mis figcaption {
+                margin-left: auto;
+                margin-right: auto;
+                width: 30em;
+            }
+
+            .ilustracja--produkt-polski {
+                width: 8em;
+                margin-left: 5%;
+            }
+
+            .przypisy {
+                width: 500px;
+            }
+
+            .cytat {
+                width: 24em;
+            }
+
+            .ilustracja--godlo, .ilustracja--hymn {
+                display: inline-block;
+                padding: 0 2em;
+            }
+            .ilustracja--hymn {
+                vertical-align: middle;
+            }
+            .ilustracja--szalik-godlo {
+                display: block;
+            }
+            .ilustracja--zemsta {
+                width: 32em;
+            }
+            .ilustracja--jurek-okladka {
+                width: 22em;
+            }
+
+        }
+
+    </style>
+</head>
+
+<body>
+
+<!--
+
+    TYTUŁ
+
+-->
+
+<img class="szalik-dwie-piesci" src="szalik-1.jpg"/>
+
+<h1 class="tytul">
+    Żyję w kraju gdzie dwie pięści rozwiązują każdy problem
+</h1>
+
+<p class="info-milosz">
+    Czy wiesz, że tytuł jak i&nbsp;cały tekst używa polskiego fontu <em>Miłosz</em>?
+    <sup><a href="#fn1" id="r1"> 1</a></sup>
+</p>
+
+<img class="przerwa przerwa--tytul" src="przerwa.png"/>
+
+
+<!--
+
+    RODZIAŁ 1
+
+     Jedynie słuszne rozwiązanie - Miś Wojtek
+
+    Stały element patriotyczny
+    Miś jako stały element patiortyzmy
+    Historia polskiego bohatera
+
+    Miś jako ponadczasowy bohater narodowy
+    Ponadczasowy bohater narodowy
+
+    Stąd chrześcijanie traktowali niedźwiedzia jako symbol zła, okrucieństwa, występku i diabła.
+    W sztuce chrześcijańskiej niedźwiedź uosabia szatana.
+
+-->
+
+<h2 class="rodzial"><span>Rozdział 1: </span>Ponadczasowy bohater narodowy</h2>
+
+<figure class="ilustracja ilustracja--mis-wojtek">
+    <img src="mis-wojtek.jpg"/>
+    <figcaption class="czarny-podpis">
+        Miś Wojtek
+    </figcaption>
+</figure>
+
+<p class="opis">
+    Miś Wojtek (ur. w 1941 w pobliżu Hamadan w Persji, zm. 2 grudnia 1963 w Edynburgu) — <strong>syryjski</strong>
+    niedźwiedź brunatny adoptowany przez żołnierzy 22 Kompanii Zaopatrywania Artylerii w 2 Korpusie Polskim
+    dowodzonym przez gen. Władysława Andersa.<sup><a href="#fn2" id="r2">2</a></sup>
+</p>
+
+<p class="opis">
+    Kariera misia-zabawki rozpoczęła się w końcu XIX wieku. Margarete Steiff — <strong>niemiecka</strong>
+    inwalidka sparaliżowana wskutek choroby Heinego-Medina, szyła różne pluszowe zabawki zwierzątka.
+    Jej siostrzeniec w roku 1880 wpadł na pomysł, aby ulepszyć ich konstrukcję i założyć firmę produkującą
+    takie zabawki.<sup><a href="#fn3" id="r3">3</a></sup>
+</p>
+
+<figure class="ilustracja ilustracja--mis-na-wojnie">
+    <img src="mis-na-wojnie.jpg"/>
+    <figcaption>
+        Czy wiesz, że bohaterski miś to polski Kubuś Puchatek, któremu jednak nie dano wędrować w&nbsp;poszukiwaniu
+        mądrości życiowej, ale który musi walczyć o wolną i niepodległą
+        Polskę?&nbsp;<sup><a href="#fn4" id="r4">4</a></sup>
+    </figcaption>
+</figure>
+
+<figure class="ilustracja ilustracja--polski-puchatek">
+    <img src="polski-puchatek.png"/>
+    <figcaption>
+        O jego przygodach można przeczytać w książce <em class="czerwony-podpis">Bohaterski miś,
+        czyli przygody pluszowego niedźwiadka na wojnie</em> napisanej przez Bronisławę Ostrowską w 1919 roku.
+    </figcaption>
+</figure>
+
+<figure class="ilustracja ilustracja--bialy-mis">
+    <img src="bialy-mis-1.jpg"/>
+    <div>
+        <video width="800" height="500" loop autoplay controls>
+            <source src="bialymis.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <img src="bialy-mis-2.jpg"/>
+    <figcaption>
+        Symboliczny miś, wielka odwaga i wojenny koszmar to kwintesencja opowieści przedstawionej w
+        teledysku <em class="czerwony-podpis">Biały Miś</em> zespołu TOP ONE.<sup><a href="#fn5" id="r5">5</a></sup>
+    </figcaption>
+</figure>
+
+<img class="przerwa przerwa--rodzial-1" src="przerwa.png"/>
+
+
+<!--
+
+    RODZIAŁ 2
+
+     Postmiśowe reperkusje
+
+-->
+
+<h2 class="rodzial"><span>Rozdział 2: </span> Dziedzictwo misia patrioty</h2>
+
+<figure class="ilustracja ilustracja--jurek-vs-mis">
+    <img src="jurek-vs-mis.jpg"/>
+    <figcaption>
+        <strong>Jurek</strong> to uczeń misia, miś wyszkolił go w wojaczce, pokazał jak być żołnierzem, a także
+        nauczył jak skutecznie bronić ojczyzny.
+    </figcaption>
+</figure>
+
+<img class="ilustracja ilustracja--jurek-terminator" src="jurek-terminator.jpg"/>
+
+<p class="cytat cytat--jurek-cerkiew">
+    A gdzie spotkał cerkiew z pięciu kopułami, <br/>
+    wnet ją brał i stawiał do góry nogami,<br/>
+    by nie obrażała prawosławnym kształtem<br/>
+    katolickiej ziemi, ujarzmionej gwałtem.<sup><a href="#fn6" id="r6">6</a></sup>
+</p>
+
+<p class="opis">
+    Przygody Jurka — dzielnego spadkobiercy misiowej myśli patriotycznej — opisał Edward Słoński w swoim poemacie dla
+    dzieci <em class="czerwony-podpis">Bajka o żołnierzu-tułaczu</em> w 1923 roku.
+</p>
+
+<img class="ilustracja ilustracja--jurek-okladka" src="jurek-okladka.jpg"/>
+
+<p class="cytat cytat--jurek-meznieje">
+    Lecz Jurek z godziny mężniał na godzinę (...)<br/>
+    że był w barach taki, jak niedźwiedzie stare.<br/>
+    — Niech dla Polski rośnie i mocnieje!&nbsp;<sup><a href="#fn7" id="r7">7</a></sup>
+</p>
+
+<img class="ilustracja ilustracja--zemsta" src="zemsta.jpg"/>
+
+<p class="cytat cytat--jurek-niech-dla-polski">
+    <span style="opacity: 1.0; color: white;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 1.0; color: white;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 1.0; color: white;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 1.0; color: white;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 1.0; color: white;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 1.0; color: white;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 1.0; color: white;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 1.0; color: white;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 1.0; color: white;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 1.0; color: red;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 0.97; color: red;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 0.95; color: red;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 0.93; color: red;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 0.9; color: red;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 0.87; color: red;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 0.85; color: red;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 0.83; color: red;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 0.8; color: red;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 0.78; color: red;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 0.75; color: red;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 0.73; color: red;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 0.7; color: red;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 0.68; color: red;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 0.65; color: red;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 0.63; color: red;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 0.6; color: red;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 0.55; color: red;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 0.5; color: red;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 0.45; color: red;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 0.4; color: red;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 0.37; color: red;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 0.35; color: red;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 0.32; color: red;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 0.3; color: red;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 0.27; color: red;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 0.25; color: red;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 0.22; color: red;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 0.2; color: red;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 0.17; color: red;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 0.15; color: red;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 0.12; color: red;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 0.1; color: red;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 0.07; color: red;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 0.05; color: red;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+    <span style="opacity: 0.03; color: red;">— Niech dla Polski rośnie i mocnieje!<br/></span>
+</p>
+
+
+<!--<img class="przerwa przerwa&#45;&#45;rozdzial-2" src="przerwa.png"/>-->
+
+
+<!--
+
+EPILOG
+
+-->
+
+<h2 class="rodzial rozdzial--epilog"><span>Epilog: </span> Atrybuty patriotyczne</h2>
+
+<figure class="ilustracja ilustracja--godlo">
+    <img src="godlo.png" alt="godlo">
+    <figcaption><em>Godło zbezczeszczone formatem JPEG</em></figcaption>
+</figure>
+
+<figure class="ilustracja ilustracja--hymn">
+    <video width="640" height="300" loop controls>
+        <source src="kurwa.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <figcaption>Wulgarny pokaz siły</figcaption>
+</figure>
+
+
+<img class="ilustracja ilustracja--szalik-godlo" src="szalik-z-godlem.png"/>
+<a href="#">
+    <img class="ilustracja ilustracja--produkt-polski" src="produkt-polski.png"/>
+</a>
+
+<!--
+
+    Lecz Jurek z godziny mężniał na godzinę
+    i wkrótce zwyciężał Misia starowinę.
+
+    Bo tak dziwnie urósł i zmocniał nad miarę,
+    że był w barach taki, jak niedźwiedzie stare.
+
+    Jednem uderzeniem grube sosny ścinał,
+    jedną ręką dęby najmocniejsze zginał.
+
+    Cięły mu się w ręku dęby niebożęta...
+    — Niech ci tego, Misiu, Pan Bóg nie pamięta! —
+
+    Ale Miś się cieszył i, obchodząc knieję,
+    mruczał: — Niech dla Polski rośnie i mocnieje! —
+
+-->
+
+<section class="przypisy">
+
+    <h1>przypisy:</h1>
+
+    <p id="fn1"><a href="#r1">[1]</a>
+        O foncie "Miłosz", który użyty został w tytule jak i całym tekście można dowiedzieć się więcej pod tym linkiem:
+        <a href="http://www.polskalitera.pl/">http://www.polskalitera.pl/</a>
+    </p>
+    <p id="fn2"><a href="#r2">[2]</a>
+        <a href="https://pl.wikipedia.org/wiki/Wojtek_(nied%C5%BAwied%C5%BA)">https://pl.wikipedia.org/wiki/Wojtek_(niedźwiedź)</a>
+    </p>
+    <p id="fn3"><a href="#r3">[3]</a>
+        <a href="https://pl.wikipedia.org/wiki/Mi%C5%9B_(zabawka)">https://pl.wikipedia.org/wiki/Miś_(zabawka)</a>
+    </p>
+    <p id="fn4"><a href="#r4">[4]</a>
+        Opis wydawcy, "Bohaterski miś, czyli przygody pluszowego niedźwiadka na wojnie", Ostrowska Bronisława, Wydawnictwo Zysk i S-ka.
+    </p>
+    <p id="fn5"><a href="#r5">[5]</a>
+        https://www.youtube.com/watch?v=1Qjb3VlQmj0
+    </p>
+    <p id="fn6"><a href="#r6">[6]</a>
+        <a href="https://pl.wikisource.org/wiki/Strona:PL_Slonski-O_zolnierzu_tulaczu_034.jpeg">
+            https://pl.wikisource.org/wiki/Strona:PL_Slonski-O_zolnierzu_tulaczu_034.jpeg
+        </a>
+    </p>
+    <p id="fn7"><a href="#r7">[7]</a>
+        <a href="https://pl.wikisource.org/wiki/Strona:PL_Slonski-O_zolnierzu_tulaczu_024.jpeg">
+            https://pl.wikisource.org/wiki/Strona:PL_Slonski-O_zolnierzu_tulaczu_024.jpeg
+        </a>
+    </p>
+
+</section>
+
+<p class="wersja">wersja: 07.03.2017</p>
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+    (function (b, o, i, l, e, r) {
+        b.GoogleAnalyticsObject = l;
+        b[l] || (b[l] =
+            function () {
+                (b[l].q = b[l].q || []).push(arguments)
+            });
+        b[l].l = +new Date;
+        e = o.createElement(i);
+        r = o.getElementsByTagName(i)[0];
+        e.src = 'https://www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e, r)
+    }(window, document, 'script', 'ga'));
+    ga('create', 'UA-XXXXX-X', 'auto');
+    ga('send', 'pageview');
+</script>
+
+</body>
+</html>
+
+
