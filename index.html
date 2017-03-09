@@ -287,10 +287,6 @@
             outline: 1px solid red;
         }
 
-        .przerwa--rozdzial-2 {
-            outline: 1px solid white;
-        }
-
         strong {
             color: red;
             font-weight: normal;
@@ -355,7 +351,7 @@
             text-align: center;
             font-size: 1.5em;
             margin: 1em 0.3em;
-            text-shadow: 2px 2px 0px rgba(255, 255, 255, 1);
+            text-shadow: 2px 2px 0 rgba(255, 255, 255, 1);
             padding: 1em 0;
             border-top: 1px solid red;
             border-bottom: 1px solid red;
@@ -371,7 +367,7 @@
         .rozdzial--epilog {
             border-color: white;
             color: white;
-            text-shadow: 2px 2px 0px rgb(0, 0, 0);
+            text-shadow: 2px 2px 0 rgb(0, 0, 0);
         }
 
         .ilustracja {
@@ -386,13 +382,13 @@
 
         .czarny-podpis {
             font-style: italic;
-            text-shadow: 2px 2px 0px rgba(255, 0, 0, 0.2)
+            text-shadow: 2px 2px 0 rgba(255, 0, 0, 0.2)
         }
 
         .czerwony-podpis {
             color: red;
             font-style: italic;
-            text-shadow: 2px 2px 0px rgb(240, 232, 240)
+            text-shadow: 2px 2px 0 rgb(240, 232, 240)
         }
 
         .opis {
@@ -618,7 +614,8 @@
 <h2 class="rodzial"><span>Rozdział 1: </span>Ponadczasowy bohater narodowy</h2>
 
 <figure class="ilustracja ilustracja--mis-wojtek">
-    <img src="mis-wojtek.jpg"/>
+    <img src="mis-wojtek.jpg"
+         alt="Ilustracja prezentująca pluszowego misia Wojtka w koszulce z napisem 'Smierć wrogom ojczyzny'"/>
     <figcaption class="czarny-podpis">
         Miś Wojtek
     </figcaption>
@@ -638,7 +635,9 @@
 </p>
 
 <figure class="ilustracja ilustracja--mis-na-wojnie">
-    <img src="mis-na-wojnie.jpg"/>
+    <img src="mis-na-wojnie.jpg"
+         alt="Ilustracja prezentująca okładkę książki pt. 'Bohaterski miś,
+              czyli przygody pluszowego niedźwiadka na wojnie'"/>
     <figcaption>
         Czy wiesz, że bohaterski miś to polski Kubuś Puchatek, któremu jednak nie dano wędrować w&nbsp;poszukiwaniu
         mądrości życiowej, ale który musi walczyć o wolną i niepodległą
@@ -647,7 +646,8 @@
 </figure>
 
 <figure class="ilustracja ilustracja--polski-puchatek">
-    <img src="polski-puchatek.png"/>
+    <img src="polski-puchatek.png"
+    alt="Ilustracja prezentująca Kubusia Puchatka w barwach biało czerwonych"/>
     <figcaption>
         O jego przygodach można przeczytać w książce <em class="czerwony-podpis">Bohaterski miś,
         czyli przygody pluszowego niedźwiadka na wojnie</em> napisanej przez Bronisławę Ostrowską w 1919 roku.
@@ -655,21 +655,23 @@
 </figure>
 
 <figure class="ilustracja ilustracja--bialy-mis">
-    <img src="bialy-mis-1.jpg"/>
+    <img src="bialy-mis-1.jpg"
+         alt="Kadr z teledysku 'Biały Miś' zespołu TOP ONE"/>
     <div>
         <video width="800" height="500" loop autoplay controls>
             <source src="bialymis.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </div>
-    <img src="bialy-mis-2.jpg"/>
+    <img src="bialy-mis-2.jpg"
+         alt="Kadr z teledysku 'Biały Miś' zespołu TOP ONE"/>
     <figcaption>
-        Symboliczny miś, wielka odwaga i wojenny koszmar to kwintesencja opowieści przedstawionej w
+        Symboliczny miś, wielka odwaga i wojenny koszmar to kwintesencja opowieści przedstawionej w fragmencie
         teledysku <em class="czerwony-podpis">Biały Miś</em> zespołu TOP ONE.<sup><a href="#fn5" id="r5">5</a></sup>
     </figcaption>
 </figure>
 
-<img class="przerwa przerwa--rodzial-1" src="przerwa.png"/>
+<img class="przerwa przerwa--rodzial-1" src="przerwa.png" alt="Element dekoracyjny oddzielający rozdziały"/>
 
 
 <!--
@@ -683,14 +685,15 @@
 <h2 class="rodzial"><span>Rozdział 2: </span> Dziedzictwo misia patrioty</h2>
 
 <figure class="ilustracja ilustracja--jurek-vs-mis">
-    <img src="jurek-vs-mis.jpg"/>
+    <img src="jurek-vs-mis.jpg" alt="Ilustracja prezentująca Jurka w konfrontacji z misiem"/>
     <figcaption>
         <strong>Jurek</strong> to uczeń misia, miś wyszkolił go w wojaczce, pokazał jak być żołnierzem, a także
         nauczył jak skutecznie bronić ojczyzny.
     </figcaption>
 </figure>
 
-<img class="ilustracja ilustracja--jurek-terminator" src="jurek-terminator.jpg"/>
+<img class="ilustracja ilustracja--jurek-terminator" src="jurek-terminator.jpg"
+    alt="Ilustracja prezentująca Jurka stawiającego cerkiew do góry nogami"/>
 
 <p class="cytat cytat--jurek-cerkiew">
     A gdzie spotkał cerkiew z pięciu kopułami, <br/>
@@ -704,7 +707,8 @@
     dzieci <em class="czerwony-podpis">Bajka o żołnierzu-tułaczu</em> w 1923 roku.
 </p>
 
-<img class="ilustracja ilustracja--jurek-okladka" src="jurek-okladka.jpg"/>
+<img class="ilustracja ilustracja--jurek-okladka" src="jurek-okladka.jpg" alt="Ilustracja prezentująca okładkę książki
+pt. 'Bajka o żołnierzu-tułaczu'"/>
 
 <p class="cytat cytat--jurek-meznieje">
     Lecz Jurek z godziny mężniał na godzinę (...)<br/>
@@ -712,7 +716,8 @@
     — Niech dla Polski rośnie i mocnieje!&nbsp;<sup><a href="#fn7" id="r7">7</a></sup>
 </p>
 
-<img class="ilustracja ilustracja--zemsta" src="zemsta.jpg"/>
+<img class="ilustracja ilustracja--zemsta" src="zemsta.jpg"
+     alt="Ilustracja prezentująca wyrośniętego, współczesnego, skrajnego patriotę"/>
 
 <p class="cytat cytat--jurek-niech-dla-polski">
     <span style="opacity: 1.0; color: white;">— Niech dla Polski rośnie i mocnieje!<br/></span>
@@ -775,7 +780,7 @@ EPILOG
 <h2 class="rodzial rozdzial--epilog"><span>Epilog: </span> Atrybuty patriotyczne</h2>
 
 <figure class="ilustracja ilustracja--godlo">
-    <img src="godlo.png" alt="godlo">
+    <img src="godlo.png" alt="Ilustracja prezentująca godło zbezczeszczone formatem JPEG">
     <figcaption><em>Godło zbezczeszczone formatem JPEG</em></figcaption>
 </figure>
 
@@ -788,9 +793,11 @@ EPILOG
 </figure>
 
 
-<img class="ilustracja ilustracja--szalik-godlo" src="szalik-z-godlem.png"/>
+<img class="ilustracja ilustracja--szalik-godlo" src="szalik-z-godlem.png"
+     alt="Ilustracja prezentująca szalik patriotyczny"/>
 <a href="#">
-    <img class="ilustracja ilustracja--produkt-polski" src="produkt-polski.png"/>
+    <img class="ilustracja ilustracja--produkt-polski" src="produkt-polski.png"
+         alt="Ilustracja prezentująca znak produktu polskiego wpisany w oko opatrzności"/>
 </a>
 
 <!--
@@ -830,7 +837,8 @@ EPILOG
         Opis wydawcy, "Bohaterski miś, czyli przygody pluszowego niedźwiadka na wojnie", Ostrowska Bronisława, Wydawnictwo Zysk i S-ka.
     </p>
     <p id="fn5"><a href="#r5">[5]</a>
-        https://www.youtube.com/watch?v=1Qjb3VlQmj0
+        Całość teledysku do obejrzenia tutaj:
+        <iframe width="360" height="200" style="margin-top: 1em;" src="https://www.youtube.com/embed/1Qjb3VlQmj0" frameborder="0" allowfullscreen></iframe>
     </p>
     <p id="fn6"><a href="#r6">[6]</a>
         <a href="https://pl.wikisource.org/wiki/Strona:PL_Slonski-O_zolnierzu_tulaczu_034.jpeg">
@@ -849,19 +857,12 @@ EPILOG
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <script>
-    (function (b, o, i, l, e, r) {
-        b.GoogleAnalyticsObject = l;
-        b[l] || (b[l] =
-            function () {
-                (b[l].q = b[l].q || []).push(arguments)
-            });
-        b[l].l = +new Date;
-        e = o.createElement(i);
-        r = o.getElementsByTagName(i)[0];
-        e.src = 'https://www.google-analytics.com/analytics.js';
-        r.parentNode.insertBefore(e, r)
-    }(window, document, 'script', 'ga'));
-    ga('create', 'UA-XXXXX-X', 'auto');
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-39308123-7', 'auto');
     ga('send', 'pageview');
 </script>
 
